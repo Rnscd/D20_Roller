@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-@Preview
+@Preview(showSystemUi = true, showBackground = true)
 @Composable
 fun DiceRollerApp(){
     DiceWithButtonAndImage(modifier = Modifier
